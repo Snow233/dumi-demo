@@ -1,0 +1,54 @@
+Arguments: 
+  /Users/zhangxiaoxiao/.nvm/versions/node/v14.20.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /Users/zhangxiaoxiao/.nvm/versions/node/v14.20.0/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/zhangxiaoxiao/.nvm/versions/node/v14.18.0/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/opt/homebrew/bin:/usr/local/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.20.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/zhangxiaoxiao/yfd/ada-gaia-infrastructure/packages/demo/package.json: Unexpected token } in JSON at position 298
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "demo",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+      "start": "npm run dev",
+      "dev": "dumi dev",
+      "build": "dumi build",
+      "prepare": "husky install && dumi setup"
+    },
+    "authors": [],
+    "license": "MIT",
+    "dependencies": {
+      "@ybc/client-api": "0.20.0",
+    },
+    "devDependencies": {
+      "dumi": "^2.0.2",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0",
+      "prettier": "^2.7.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
