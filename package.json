@@ -5,16 +5,17 @@
   "scripts": {
     "docs:start": "npm run dev",
     "dev": "dumi dev",
-    "build": "dumi build"
+    "build": "dumi build",
+    "deploy": "gh-pages -d dist"
   },
   "authors": [],
   "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
   "devDependencies": {
-    "dumi": "^2.0.2",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "prettier": "^2.7.1"
+    "dumi": "^2.0.13",
+    "gh-pages": "^4.0.0",
+    "typescript": "~4.7.4"
   }
 }
